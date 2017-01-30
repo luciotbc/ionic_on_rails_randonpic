@@ -3,7 +3,7 @@ class PicsController < ApplicationController
 
   # GET /pics
   def index
-    @pics = Pic.all
+    @pics = Pic.all.limit(20).reverse
 
     render json: @pics
   end

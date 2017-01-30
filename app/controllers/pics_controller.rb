@@ -8,11 +8,6 @@ class PicsController < ApplicationController
     render json: @pics
   end
 
-  # GET /pics/1
-  def show
-    render json: @pic
-  end
-
   # POST /pics
   def create
     @pic = Pic.new(pic_params)
@@ -22,20 +17,6 @@ class PicsController < ApplicationController
     else
       render json: @pic.errors, status: :unprocessable_entity
     end
-  end
-
-  # PATCH/PUT /pics/1
-  def update
-    if @pic.update(pic_params)
-      render json: @pic
-    else
-      render json: @pic.errors, status: :unprocessable_entity
-    end
-  end
-
-  # DELETE /pics/1
-  def destroy
-    @pic.destroy
   end
 
   private

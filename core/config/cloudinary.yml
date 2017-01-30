@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dmgccz5jt
+  api_key: '421461872558363'
+  api_secret: UgRmGkv86Ffl_xsrI-_vtsN-9FM
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dmgccz5jt
+  api_key: '421461872558363'
+  api_secret: UgRmGkv86Ffl_xsrI-_vtsN-9FM
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dmgccz5jt
+  api_key: '421461872558363'
+  api_secret: UgRmGkv86Ffl_xsrI-_vtsN-9FM
+  enhance_image_tag: true
+  static_image_support: false
